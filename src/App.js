@@ -66,7 +66,7 @@ function App() {
               <div key={val.id} className="main__project">
                 <img
                   className="main__project-image"
-                  src={`./Assets/${val.image}.jpg`}
+                  src={`/portfolio/static/media/${val.image}.jpg`}
                   alt="preview"
                 />
                 <div className="main__mask">
