@@ -7,6 +7,7 @@ import Link from '@mui/icons-material/LinkOutlined';
 import './App.scss';
 import dataSkills from './info/skills.json';
 import dataProjects from './info/projects.json';
+import logo from './Assets/logo.gif';
 
 function App() {
   const [toggled, setToggled] = React.useState(false);
@@ -40,7 +41,7 @@ function App() {
         <Switch checked={toggled} onChange={(e) => setToggled(e.target.checked)} />
       </header>
       <main className="main__content">
-        <img className="main__logo" src="./Assets/logo.gif" alt="logo" />
+        <img className="main__logo" src={logo} alt="logo" />
         <h1 className="main__title">Company name</h1>
         <p className="main__description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
