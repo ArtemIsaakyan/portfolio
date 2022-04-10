@@ -8,6 +8,7 @@ import './App.scss';
 import dataSkills from './info/skills.json';
 import dataProjects from './info/projects.json';
 import logo from './Assets/logo.gif';
+import preview from './Assets/preview.jpg';
 
 function App() {
   const [toggled, setToggled] = React.useState(false);
@@ -64,11 +65,7 @@ function App() {
           <div className="main__projects proj-info">
             {dataProjects.map((val) => (
               <div key={val.id} className="main__project">
-                <img
-                  className="main__project-image"
-                  src={`/portfolio/static/media/${val.image}.jpg`}
-                  alt="preview"
-                />
+                <img className="main__project-image" src={preview} alt="preview" />
                 <div className="main__mask">
                   <h4 className="main__mask-title">{val.title}</h4>
                   <p className="main__mask-description">{val.description}</p>
