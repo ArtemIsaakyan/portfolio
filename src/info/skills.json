@@ -1,0 +1,42 @@
+[
+  {
+    "id" : 1,
+    "technology" : "HTML",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 2,
+    "technology" : "CSS",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 3,
+    "technology" : "JavaScript",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 4,
+    "technology" : "React",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 5,
+    "technology" : "Git",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 6,
+    "technology" : "Bootstrap",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 7,
+    "technology" : "Node.js",
+    "level" : "Advanced" 
+  },
+  {
+    "id" : 8,
+    "technology" : "Material UI",
+    "level" : "Advanced" 
+  }
+]
